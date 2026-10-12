@@ -1,0 +1,255 @@
+
+\documentclass[11pt,letterpaper]{article}
+
+% ==================================================
+% Packages
+% ==================================================
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{fancyhdr}
+
+% ==================================================
+% Formatting
+% ==================================================
+\pagestyle{empty}
+\setlength{\headheight}{14pt}
+\fancypagestyle{cvfirstpage}{%
+  \fancyhf{}
+  \fancyhead[R]{\small Last updated: October 12, 2026}
+  \renewcommand{\headrulewidth}{0pt}
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+
+\titleformat{\section}
+  {\normalfont\bfseries\large}
+  {}{0pt}{}
+  [\titlerule]
+
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+
+\setlist[itemize]{
+  leftmargin=1.5em,
+  topsep=2pt,
+  itemsep=2pt,
+  parsep=0pt
+}
+
+% Two-column entry: information on left, date on right
+\newcommand{\cventry}[2]{%
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \begin{minipage}[t]{\linewidth}#1\end{minipage} & #2
+  \end{tabularx}%
+}
+
+% ==================================================
+% Document
+% ==================================================
+\begin{document}
+\thispagestyle{cvfirstpage}
+
+% --------------------------------------------------
+% Header
+% --------------------------------------------------
+\begin{center}
+  {\LARGE\bfseries Ayano Yago}\\[8pt]
+  Department of Economics\\
+  Graduate School of Arts and Science\\
+  New York University\\[3pt]
+  19 West 4th Street, 6th Floor, New York, NY 10012\\[3pt]
+  Email: \href{mailto:ayano.yago@nyu.edu}{ayano.yago@nyu.edu}\\[3pt]
+  Phone: (+1)646-281-3674
+\end{center}
+
+\vspace{5pt}
+
+% --------------------------------------------------
+\section*{Education}
+% --------------------------------------------------
+
+\cventry{
+  \textbf{New York University}\\
+  Ph.D. student in Economics
+}{2024--present}
+
+\vspace{5pt}
+
+\cventry{
+  \textbf{The University of Tokyo}\\
+  M.A. in Economics\\
+  Advisor: Fuhito Kojima
+}{2024}
+
+\vspace{5pt}
+
+\cventry{
+  \textbf{The University of Tokyo}\\
+  B.A. in Economics\\
+  Advisor: Akihiko Matsui
+}{2021}
+
+
+
+% --------------------------------------------------
+\section*{Working Papers}
+% --------------------------------------------------
+
+\begin{enumerate}[leftmargin=1.5em, itemsep=8pt]
+
+\item
+\textbf{\href{https://arxiv.org/abs/2607.29139}{The Role of Precedence Order in Matching with Multi-Criteria Admissions}}\\
+with Shunya Noda
+
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{Work in Progress}
+% --------------------------------------------------
+
+\begin{enumerate}[leftmargin=1.5em, itemsep=6pt]
+
+\item
+\textbf{Affirmative Action with Overlapping Reserves and Quotas}
+
+\item
+\textbf{When Is Posted Pricing Optimal for Selling Information?}\\
+with Keita Kuwahara and Konan Shimizu
+
+\end{enumerate}
+
+% --------------------------------------------------
+\section*{Research Assistance}
+% --------------------------------------------------
+
+\cventry{
+  Research Assistant at the University of Tokyo Market Design Center\\
+  for Fuhito Kojima, Yuichiro Kamada, Shunya Noda, and Kenzo Imamura
+}{2020--2024}
+
+\vspace{5pt}
+
+\cventry{
+  Research Assistant for Michihiro Kandori
+}{2022}
+
+% --------------------------------------------------
+\section*{Teaching Experience}
+% --------------------------------------------------
+
+\textbf{New York University}, Teaching Assistant\par\nopagebreak
+
+\cventry{
+  Microeconomic Analysis (undergraduate), for Erik Madsen
+}{2026}
+
+\vspace{5pt}
+
+\cventry{
+  Game Theory (undergraduate), for Dilip Abreu
+}{2025}
+
+\vspace{14pt}
+
+\begin{minipage}[t]{\textwidth}
+\setlength{\parskip}{3pt}
+\textbf{The University of Tokyo}, Teaching Assistant\par\nopagebreak
+
+\cventry{
+  Mechanism Design (graduate), for Hitoshi Matsushima
+}{2021, 2022, 2023}
+
+\vspace{5pt}
+
+\cventry{
+  Microeconomics I (core course), for Akihiko Matsui
+}{2022}
+
+\vspace{5pt}
+
+\cventry{
+  Microeconomics II (core course), for Fuhito Kojima
+}{2022}
+
+\vspace{5pt}
+
+\cventry{
+  Modern Economic Theory (undergraduate), for Fuhito Kojima
+}{2022}
+\end{minipage}
+
+% --------------------------------------------------
+\section*{Scholarships and Grants}
+% --------------------------------------------------
+
+\cventry{
+  C.V. Starr Travel Grant
+}{2026}
+
+\cventry{
+  MacCracken Fellowship, New York University
+}{2024--2029}
+
+\cventry{
+  Heiwa Nakajima Scholarship
+}{2024--2026}
+
+\cventry{
+  Research Fellowship for Young Scientists (DC1), JSPS (declined)
+}{2023}
+
+\cventry{
+  World-leading Innovative Graduate Study Program (WINGS),
+  The University of Tokyo
+}{2022}
+
+% --------------------------------------------------
+\section*{Presentations}
+% --------------------------------------------------
+
+\cventry{
+  Micro Theory Lunch at New York University
+}{2026}
+
+\cventry{
+  Midwest International Trade \& Theory Conference
+}{2026}
+
+\cventry{
+  Microeconomics Workshop at The University of Tokyo
+}{2024}
+
+\cventry{
+  Microeconomics Workshop at The University of Tokyo
+}{2023}
+
+% --------------------------------------------------
+
+% --------------------------------------------------
+\section*{Other Experience}
+% --------------------------------------------------
+
+\cventry{
+  First-Year Mentor at New York University
+}{2026}
+
+\cventry{
+  Summer Program at The University of Sheffield, United Kingdom
+}{2018}
+
+% --------------------------------------------------
+\section*{Personal Information}
+% --------------------------------------------------
+
+Citizenship: Japan\\
+Languages: English (fluent), Japanese (native)\\
+Date of Birth: November 10, 1998
+
+\end{document}
